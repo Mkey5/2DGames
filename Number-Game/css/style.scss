@@ -1,0 +1,63 @@
+body{
+  margin: 0;
+  background: grey;
+  font-size: 50px;
+  span{
+    float: right;
+    margin-right: 35px;
+    padding-bottom: 2px;
+  }
+  input{
+    width: 50px;
+    float: right;
+    margin-right: 20px;
+  }
+
+  .col-md-6{
+    text-align: center;
+  }
+  #main{
+    margin-top: 30px;
+    background: white;
+
+    #row1{
+      #row1-col1{
+        float: left;
+      }
+      #row1-col2{
+        float: right;
+      }
+    }
+    #row2{
+      float: none;
+      margin: 80px auto;
+      #row2-col1{
+        text-align: center;
+        float: none;
+        margin: 0 auto;
+      }
+    }
+
+    #row3{
+      #row3-col1{
+        float: left;
+      }
+      #row3-col2{
+        float: right;
+      }
+    }
+
+    #row4{
+      #forButton{
+        float: none;
+        margin: 30px auto;
+        text-align: center;
+        #OK{
+          font-size: 40px;
+          border-radius: 50px;
+        }
+      }
+    }
+
+  }
+}

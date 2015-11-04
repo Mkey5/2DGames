@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  background: grey;
+  font-size: 50px; }
+  body span {
+    float: right;
+    margin-right: 35px;
+    padding-bottom: 2px; }
+  body input {
+    width: 50px;
+    float: right;
+    margin-right: 20px; }
+  body .col-md-6 {
+    text-align: center; }
+  body #main {
+    margin-top: 30px;
+    background: white; }
+    body #main #row1 #row1-col1 {
+      float: left; }
+    body #main #row1 #row1-col2 {
+      float: right; }
+    body #main #row2 {
+      float: none;
+      margin: 80px auto; }
+      body #main #row2 #row2-col1 {
+        text-align: center;
+        float: none;
+        margin: 0 auto; }
+    body #main #row3 #row3-col1 {
+      float: left; }
+    body #main #row3 #row3-col2 {
+      float: right; }
+    body #main #row4 #forButton {
+      float: none;
+      margin: 30px auto;
+      text-align: center; }
+      body #main #row4 #forButton #OK {
+        font-size: 40px;
+        border-radius: 50px; }
+
+/*# sourceMappingURL=style.css.map */
